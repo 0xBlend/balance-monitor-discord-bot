@@ -1,0 +1,20 @@
+{
+  "name": "balance-monitor-discord-bot",
+  "version": "1.0.0",
+  "description": "A bot that is able to retrieve the balance of one *Address* or *Smart Contract* in the Blockchain (we're using an RPC Node to connect with it) and check if something changes by time. When the balance will change the bot automatically will send a message in a channel. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blockchain", "wallet", "balance", "truffle", "discord", "bot", "discord-bot", "blockchain-address", "smart-contract", "discord-blockchain", "discord-heroku"],
+  "author": "0xBlend",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "axios": "^0.26.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.1"
+  }
+}
